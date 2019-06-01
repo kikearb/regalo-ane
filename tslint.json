@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "no-require-imports": true,
+    "no-duplicate-imports": true,
+    "no-use-before-declare": false,
+    "no-duplicate-variable": true,
+    "eofline": true,
+    "indent": [true, "spaces"],
+  }
+}
