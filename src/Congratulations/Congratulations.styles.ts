@@ -22,7 +22,7 @@ const makeItRain = keyframes`
   }
   
   to {
-    transform: translateY(600px);
+    transform: translateY(1000px);
   }
 `;
 
@@ -37,93 +37,93 @@ const Piece = styled.div`
   &:nth-child(1) {
     left: 7%;
     transform: rotate(${randomNum(-80, 80)}deg);
-    animation: ${makeItRain} 1000ms infinite ease-out;
-    animation-delay: ${randomNum(0, 1000 * .5)}ms;
+    animation: ${makeItRain} 3000ms infinite ease-out;
+    animation-delay: ${randomNum(0, 2000 * .5)}ms;
     animation-duration: ${randomNum(2000 * .7, 2000 * 1.2)}ms
   }
 
   &:nth-child(2) {
     left: 14%;
     transform: rotate(${randomNum(-80, 80)}deg);
-    animation: ${makeItRain} 1000ms infinite ease-out;
-    animation-delay: ${randomNum(0, 1000 * .5)}ms;
+    animation: ${makeItRain} 3000ms infinite ease-out;
+    animation-delay: ${randomNum(0, 2000 * .5)}ms;
     animation-duration: ${randomNum(2000 * .7, 2000 * 1.2)}ms
   }
   &:nth-child(3) {
     left: calc(3 * 7%);
     transform: rotate(${randomNum(-80, 80)}deg);
-    animation: ${makeItRain} 1000ms infinite ease-out;
-    animation-delay: ${randomNum(0, 1000 * .5)}ms;
+    animation: ${makeItRain} 2500ms infinite ease-out;
+    animation-delay: ${randomNum(0, 2000 * .5)}ms;
     animation-duration: ${randomNum(2000 * .7, 2000 * 1.2)}ms
   }
   &:nth-child(4) {
     left: calc(4 * 7%);
     transform: rotate(${randomNum(-80, 80)}deg);
-    animation: ${makeItRain} 1000ms infinite ease-out;
-    animation-delay: ${randomNum(0, 1000 * .5)}ms;
+    animation: ${makeItRain} 2500ms infinite ease-out;
+    animation-delay: ${randomNum(0, 2000 * .5)}ms;
     animation-duration: ${randomNum(2000 * .7, 2000 * 1.2)}ms
   }
   &:nth-child(5) {
     left: calc(5 * 7%);
     transform: rotate(${randomNum(-80, 80)}deg);
-    animation: ${makeItRain} 1000ms infinite ease-out;
-    animation-delay: ${randomNum(0, 1000 * .5)}ms;
+    animation: ${makeItRain} 2500ms infinite ease-out;
+    animation-delay: ${randomNum(0, 2000 * .5)}ms;
     animation-duration: ${randomNum(2000 * .7, 2000 * 1.2)}ms
   }
   &:nth-child(6) {
     left: calc(6 * 7%);
     transform: rotate(${randomNum(-80, 80)}deg);
-    animation: ${makeItRain} 1000ms infinite ease-out;
-    animation-delay: ${randomNum(0, 1000 * .5)}ms;
+    animation: ${makeItRain} 2500ms infinite ease-out;
+    animation-delay: ${randomNum(0, 2000 * .5)}ms;
     animation-duration: ${randomNum(2000 * .7, 2000 * 1.2)}ms
   }
   &:nth-child(7) {
     left: calc(7 * 7%);
     transform: rotate(${randomNum(-80, 80)}deg);
-    animation: ${makeItRain} 1000ms infinite ease-out;
-    animation-delay: ${randomNum(0, 1000 * .5)}ms;
+    animation: ${makeItRain} 2500ms infinite ease-out;
+    animation-delay: ${randomNum(0, 2000 * .5)}ms;
     animation-duration: ${randomNum(2000 * .7, 2000 * 1.2)}ms
   }
   &:nth-child(8) {
     left: calc(8 * 7%);
     transform: rotate(${randomNum(-80, 80)}deg);
-    animation: ${makeItRain} 1000ms infinite ease-out;
-    animation-delay: ${randomNum(0, 1000 * .5)}ms;
+    animation: ${makeItRain} 2500ms infinite ease-out;
+    animation-delay: ${randomNum(0, 2000 * .5)}ms;
     animation-duration: ${randomNum(2000 * .7, 2000 * 1.2)}ms
   }
   &:nth-child(9) {
     left: calc(9 * 7%);
     transform: rotate(${randomNum(-80, 80)}deg);
-    animation: ${makeItRain} 1000ms infinite ease-out;
-    animation-delay: ${randomNum(0, 1000 * .5)}ms;
+    animation: ${makeItRain} 2500ms infinite ease-out;
+    animation-delay: ${randomNum(0, 2000 * .5)}ms;
     animation-duration: ${randomNum(2000 * .7, 2000 * 1.2)}ms
   }
   &:nth-child(10) {
     left: calc(10 * 7%);
     transform: rotate(${randomNum(-80, 80)}deg);
-    animation: ${makeItRain} 1000ms infinite ease-out;
-    animation-delay: ${randomNum(0, 1000 * .5)}ms;
+    animation: ${makeItRain} 3000ms infinite ease-out;
+    animation-delay: ${randomNum(0, 2000 * .5)}ms;
     animation-duration: ${randomNum(2000 * .7, 2000 * 1.2)}ms
   }
   &:nth-child(11) {
     left: calc(11 * 7%);
     transform: rotate(${randomNum(-80, 80)}deg);
-    animation: ${makeItRain} 1000ms infinite ease-out;
-    animation-delay: ${randomNum(0, 1000 * .5)}ms;
+    animation: ${makeItRain} 3000ms infinite ease-out;
+    animation-delay: ${randomNum(0, 2000 * .5)}ms;
     animation-duration: ${randomNum(2000 * .7, 2000 * 1.2)}ms
   }
   &:nth-child(12) {
     left: calc(12 * 7%);
     transform: rotate(${randomNum(-80, 80)}deg);
-    animation: ${makeItRain} 1000ms infinite ease-out;
-    animation-delay: ${randomNum(0, 1000 * .5)}ms;
+    animation: ${makeItRain} 3000ms infinite ease-out;
+    animation-delay: ${randomNum(0, 2000 * .5)}ms;
     animation-duration: ${randomNum(2000 * .7, 2000 * 1.2)}ms
   }
   &:nth-child(13) {
     left: calc(13 * 7%);
     transform: rotate(${randomNum(-80, 80)}deg);
-    animation: ${makeItRain} 1000ms infinite ease-out;
-    animation-delay: ${randomNum(0, 1000 * .5)}ms;
+    animation: ${makeItRain} 3000ms infinite ease-out;
+    animation-delay: ${randomNum(0, 2000 * .5)}ms;
     animation-duration: ${randomNum(2000 * .7, 2000 * 1.2)}ms
   }
     
@@ -145,8 +145,8 @@ const Piece = styled.div`
   &:nth-child(3n) {
     width: 3px;
     height: 10px;
-    animation-duration: 2500ms;
-    animation-delay: 1000ms;
+    animation-duration: 3000ms;
+    animation-delay: 3000ms;
   }
   
   &:nth-child(4n-7) {
