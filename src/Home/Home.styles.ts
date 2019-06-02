@@ -31,8 +31,8 @@ const Emphasized = styled.span`
 
 const Button = styled.div`
   position: absolute;
-  bottom: 20px;
-  right: 10px;
+  bottom: 3%;
+  right: 5%;
 
   display: inline-flex;
   align-items: center;
@@ -45,5 +45,6 @@ const Button = styled.div`
 
   border-radius: 2px;
 
+  font-size: 5vw;
   text-transform: uppercase;
 `;
