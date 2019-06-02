@@ -91,13 +91,13 @@ const Steps: React.FC = () => {
       {stepActual === 5 && (
         <>
           <Riddle>
-            Me pelan de arriba a abajo
+            No soy arquero
             <br />
-            quitándome la camisa,
+            pero uso la flecha.
             <br />
-            pero si ésta al suelo tiran,
+            Me muevo si quiero
             <br />
-            sobreviene una golpiza.
+            con tu mano derecha.
           </Riddle>
           <Reader
             facingMode="environment"
@@ -110,13 +110,13 @@ const Steps: React.FC = () => {
       {stepActual === 6 && (
         <>
           <Riddle>
-            Me pelan de arriba a abajo
+            Siempre andamos por el suelo
             <br />
-            quitándome la camisa,
+            de alcobas y de salones
             <br />
-            pero si ésta al suelo tiran,
+            y en historias orientales
             <br />
-            sobreviene una golpiza.
+            hasta hacemos algún vuelo.
           </Riddle>
           <Reader
             facingMode="environment"
@@ -139,9 +139,7 @@ const Steps: React.FC = () => {
           </Button>
         ) : (
           <Link to="/congratulations">
-            <Button disabled={dataResult === ''}>
-              Finalizar
-            </Button>
+            <Button disabled={dataResult === ''}>Finalizar</Button>
           </Link>
         )}
       </ButtonsWrapper>
