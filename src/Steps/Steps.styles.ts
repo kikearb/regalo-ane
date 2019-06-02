@@ -2,14 +2,20 @@ import styled, { css } from 'styled-components';
 import QrReader from 'react-qr-reader';
 
 // eslint-disable-next-line
-export { Wrapper, Title, Content, Riddle, Reader, ButtonsWrapper, Button };
+export { Wrapper, RiddleWrapper, Title, Content, Riddle, Reader, ButtonsWrapper, Button };
 
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
 
+  height: 100%;
+
   padding-left: 10px;
   padding-right: 10px;
+`;
+
+const RiddleWrapper = styled.div`
+  flex-grow: 1;
 `;
 
 const Title = styled.div`
@@ -46,13 +52,9 @@ interface Props {
 }
 
 const ButtonsWrapper = styled.div<Props>`
-  position: absolute;
-  left: 3%;
-  bottom: 3%;
-  right: 5%;
-
   display: flex;
   justify-content: ${p => p.onlyOneButton ? 'flex-end' : 'space-between' };
+  margin-bottom: 26px;
 `;
 
 interface ButtonProps {

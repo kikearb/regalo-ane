@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {
   Title,
+  RiddleWrapper,
   Wrapper,
   Content,
   Riddle,
@@ -21,7 +22,7 @@ const Steps: React.FC = () => {
     <Wrapper>
       <Title>Paso {stepActual}</Title>
       {stepActual === 1 && (
-        <>
+        <RiddleWrapper>
           <Riddle>
             Sin ser árbol tengo hojas,
             <br /> sin ser bestia un buen lomo
@@ -33,10 +34,10 @@ const Steps: React.FC = () => {
             onScan={data => data && handleResult(data)}
           />
           <Content>{dataResult}</Content>
-        </>
+        </RiddleWrapper>
       )}
       {stepActual === 2 && (
-        <>
+        <RiddleWrapper>
           <Riddle>
             Aunque tiene dientes
             <br />y la casa guarda,
@@ -49,10 +50,10 @@ const Steps: React.FC = () => {
             onScan={data => data && handleResult(data)}
           />
           <Content>{dataResult}</Content>
-        </>
+        </RiddleWrapper>
       )}
       {stepActual === 3 && (
-        <>
+        <RiddleWrapper>
           <Riddle>
             Cuatro patas tiene
             <br />y no puede andar.
@@ -67,10 +68,10 @@ const Steps: React.FC = () => {
             onScan={data => data && handleResult(data)}
           />
           <Content>{dataResult}</Content>
-        </>
+        </RiddleWrapper>
       )}
       {stepActual === 4 && (
-        <>
+        <RiddleWrapper>
           <Riddle>
             Me pelan de arriba a abajo
             <br />
@@ -86,10 +87,10 @@ const Steps: React.FC = () => {
             onScan={data => data && handleResult(data)}
           />
           <Content>{dataResult}</Content>
-        </>
+        </RiddleWrapper>
       )}
       {stepActual === 5 && (
-        <>
+        <RiddleWrapper>
           <Riddle>
             No soy arquero
             <br />
@@ -105,10 +106,10 @@ const Steps: React.FC = () => {
             onScan={data => data && handleResult(data)}
           />
           <Content>{dataResult}</Content>
-        </>
+        </RiddleWrapper>
       )}
       {stepActual === 6 && (
-        <>
+        <RiddleWrapper>
           <Riddle>
             Siempre andamos por el suelo
             <br />
@@ -124,7 +125,7 @@ const Steps: React.FC = () => {
             onScan={data => data && handleResult(data)}
           />
           <Content>{dataResult}</Content>
-        </>
+        </RiddleWrapper>
       )}
       <ButtonsWrapper onlyOneButton={stepActual === 1}>
         {stepActual !== 1 && (
