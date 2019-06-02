@@ -9,7 +9,7 @@ const Home: React.FC = () => {
     <Wrapper>
       <Title>
         Bienvenida a la
-        <Emphasized>ArbuGymkhana</Emphasized>
+        <Emphasized>cumplegymkhana</Emphasized>
       </Title>
     </Wrapper>
   );

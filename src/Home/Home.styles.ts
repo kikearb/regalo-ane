@@ -15,7 +15,7 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled.div`
-  font-size: 30px;
+  font-size: 8vw;
   line-height: 1.5;
   text-align: center;
   color: #282c34;
@@ -26,4 +26,5 @@ const Title = styled.div`
 const Emphasized = styled.span`
   display: block;
   color: #FFC605;
+  filter: drop-shadow(1px 1px 0 #282c34);
 `;
