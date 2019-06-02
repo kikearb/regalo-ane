@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 // eslint-disable-next-line
-export { Wrapper, Title, Emphasized };
+export { Wrapper, Title, Emphasized, Button };
 
 const Wrapper = styled.div`
   position: relative;
@@ -27,4 +27,23 @@ const Emphasized = styled.span`
   display: block;
   color: #FFC605;
   filter: drop-shadow(1px 1px 0 #282c34);
+`;
+
+const Button = styled.div`
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 20px;
+
+  color: #FFC605;
+  background-color: #20232a;
+
+  border-radius: 2px;
+
+  text-transform: uppercase;
 `;
